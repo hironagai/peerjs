@@ -21,7 +21,7 @@ window.URL = window.URL || window.webkitURL;
     );
 
     var peer = new Peer({
-        key: Peerで発番されるKeyを設定'
+        key: 'PeerJSで発番されるKeyを設定'
     });
 
     //peer.on('error', function(e){
