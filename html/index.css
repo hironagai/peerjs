@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#bg {
+    z-index: -1;
+    position: fixed;
+}
+
+.threed {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #fafafa;
+    letter-spacing: 0;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+}
+
+#myname{
+    width:250px;
+    font-size: 24px;
+    margin-top: 100px;
+}
+
+.btn{
+    margin-top : 40px;
+}
+
+.footer{
+    margin-top : 20px;
+}

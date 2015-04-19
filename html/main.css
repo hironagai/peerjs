@@ -1,0 +1,110 @@
+body {
+    background-color: beige;
+}
+
+.cameraMsg {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.threed {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 70px;
+    color: #fafafa;
+    letter-spacing: 0;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+}
+
+#url {
+    width: 100%;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#videoarea {
+    text-align: center;
+    padding-top: 5px;
+}
+#videoDisplay {
+    position: relative;
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#drawCanvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#yourVideo{
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+#myVideo {
+    position:absolute;
+    left: 460px;
+    top: 340px;
+    border: medium solid black;
+}
+
+.heart {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+    display: none;
+}
+
+#balloon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.box {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    background: #ccc;
+    /*    height:150px;*/
+
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.box:before {
+    content: '';
+    position: absolute;
+    background: #ccc;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    bottom: -20px;
+    left: -20px;
+}
+
+.box:after {
+    content: '';
+    position: absolute;
+    background: #ccc;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    bottom: -30px;
+    left: -40px;
+}
+
+#inline_content{
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ビデオチャット</title>
+    <script type="text/javascript" src="http://cdn.peerjs.com/0.3/peer.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./lib/colorbox/jquery.colorbox.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./lib/colorbox/colorbox.css" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="videoarea">
+        <div id="videoDisplay">
+            <video id="yourVideo" width="640" height="480" autoplay="1" poster="images/bg_img_l.png"></video>
+            <video id="myVideo" width="170" height="130" autoplay="1" poster="images/bg_img_s.png" muted></video>
+        </div>
+    </div>
+    <a id="startWnd" href="#inline_content" class="inline"></a>
+    <div style='display:none'>
+        <div id='inline_content'>
+            <p class="cameraMsg">
+                ブラウザの「カメラとマイクへのアクセス」を許可したら、
+                <br/> ビデオチャットを開始してね。
+            </p>
+            <input id="start" type="button" class="btn btn-success btn-large" value="ビデオチャットを開始する">
+        </div>
+    </div>
+    <script src="receiver.js"></script>
+</body>
+
+</html>
